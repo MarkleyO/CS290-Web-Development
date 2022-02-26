@@ -1,0 +1,214 @@
+html {
+	background-color: #000000;
+	font-family: 'News Cycle', sans-serif;
+}
+
+body{
+	position: absolute;
+	margin: 0;
+	height:100%;
+	width:100%;
+}
+* {
+	font-family: calibri;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+}
+h1 {
+	font-weight: 100;
+}
+header {
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	display: inline-flex;
+	background-color: #444444;
+	z-index: 99;
+	text-align: center;
+}
+
+main{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+div.title {
+	bottom: 0;
+	width: 2000px;
+	height:100px;
+	position: absolute;
+	display: inline-block;
+	background-color: #444444;
+}
+
+h1.title{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	left: 10px;
+	font-size: 80px;
+	transition: .1s;
+}
+
+h1.title:hover {
+	text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+div.cart {
+	background-color: #FF9999;
+	height: 80px;
+	width: 80px;
+	top: 10px;
+	position:absolute;
+	right: 10px;
+	border-radius: 25%;
+	transition: .1s;
+}
+
+div.cart:hover {
+	background-color: #FFBBBB;
+}
+
+img.cart{
+	height: 60px;
+	width: 60px;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+div.side-bar {
+	width: 230px;
+	height: 100%;
+	position: fixed;
+	display: inline-block;
+	background-color: #444444;
+	font-size: 20px;
+}
+div.side-spacer {
+	width: 100%;
+	height: 100px;
+}
+
+p.search-by {
+	font-size: 20px;
+}
+label {
+	margin-left: 15px;
+}
+input {
+	color: black;
+	width: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+	height: 40px;
+	font-size: 20px;
+}
+button {
+	width: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #FF9999;
+	border: none;
+	transition: .1s;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #FFBBBB;
+}
+div.cards {
+	margin-left: 238px;
+	margin-top: 108px;
+	height: 1000px;
+	position: absolute;
+	display: inline-block;
+}
+
+div.card {
+	background-color: #444444;
+	width: 200px;
+	height: 240px;
+	margin: 10px;
+	display: inline-block;
+}
+div.card-art {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	z-index: 1;
+}
+img.card-art {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition: .1s;
+}
+div.card-art:hover > img.card-art {
+	opacity: 0;
+}
+div.card-info {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+p.card-info {
+	position: relative;
+	top: 0px;
+	z-index: 0;
+	transform: translate(0px, 80px);
+}
+div.card-bottom {
+	background-color: #444444;
+	width: 200px;
+	height: 40px;
+}
+div.price {
+	margin: 0px;
+	width: 160px;
+	height: 40px;
+	display: inline-block;
+}
+div.price > p {
+	transform: translate(10px, 7px);
+}
+div.add-button {
+	background-image: url("./images/add.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	text-align: center;
+	margin: 0px;
+	left: 0px;
+	width: 40px;
+	height: 40px;
+	background-color: #FF9999;
+	display: inline-block;
+	right: 0px;
+	transition: .1s;
+	float: right;
+}
+div.add-button:hover {
+	cursor: pointer;
+	background-color: #FFBBBB;
+}
+
+div.cart-container {
+	width: 100%;
+	margin-top: 100px;
+}
+
+
