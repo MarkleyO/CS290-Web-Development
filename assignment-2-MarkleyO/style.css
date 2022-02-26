@@ -1,0 +1,155 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Owen Markley
+ * email: markleyo@oregonstate.edu
+ */
+header{
+	display: inline-flex;
+	background-color: black;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.header-image-container{
+	display: inline-flex;
+}
+body{
+	margin-top: 158px;
+}
+.site-title{
+	display: inline-flex;
+	font-family: "Roboto Slab";
+	font-size: 70px;
+	margin-bottom: 0px;
+	font-weight: 450;
+}
+
+h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.content{
+	display: inline-flex;
+}
+
+.filter-container{
+	background-color: #EFEFEF;
+	font-family: Roboto;
+	width: 200px;
+	padding: 10px;
+	display: table;
+	border-radius: 10px;
+}
+
+.filter-input-container{
+	margin-bottom: 10px;
+	width: 200px;
+	display: flex;
+	align-items: stretch;
+	/*vertical-align: center;*/
+}
+
+.filter-input-label{
+	display: inline-flex;
+}
+
+.filter-input{
+	display: inline-flex;
+	border-radius: 5px;
+	border: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 0;
+}
+
+input[type="checkbox"]{
+	color: white;
+}
+
+.action-button{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 40px;
+	border-radius: 4px;
+	padding: 0px;
+	border-width: 0;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.action-button:hover{
+	background-color: white;
+	color: black;
+}
+
+
+#results{
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	display: inline;
+}
+
+.result{
+	display: inline-block;
+	font-family: Roboto;
+	border-radius: 4px;
+	border-color: #DFDFDF;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	/*position: relative;*/
+}
+
+.result-title{
+	color: #F78932;
+	text-decoration: none;
+}
+
+.result-title:hover{
+	text-decoration: underline;
+}
+
+.result-price{
+	background-color: #DFDFDF;
+	border-radius: 4px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 14px;
+	padding: 1px;
+}
+
+.result-image-container img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#sell-something-button{
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	border-radius: 50%;
+	background-color: orange;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 50px;
+	font-size: 32px;
+}
+
+#sell-something-button:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
